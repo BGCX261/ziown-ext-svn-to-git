@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ziown-ext", "Ziown-ext\Ziown-ext.csproj", "{E7FE5A39-B32F-43C0-8565-1A74D8197889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{6411A796-758D-4686-B0A7-368514B97006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{B6990C02-9D49-4D01-A904-90482D44BC60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7FE5A39-B32F-43C0-8565-1A74D8197889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE5A39-B32F-43C0-8565-1A74D8197889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE5A39-B32F-43C0-8565-1A74D8197889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE5A39-B32F-43C0-8565-1A74D8197889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6411A796-758D-4686-B0A7-368514B97006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6411A796-758D-4686-B0A7-368514B97006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6411A796-758D-4686-B0A7-368514B97006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6411A796-758D-4686-B0A7-368514B97006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6990C02-9D49-4D01-A904-90482D44BC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6990C02-9D49-4D01-A904-90482D44BC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6990C02-9D49-4D01-A904-90482D44BC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6990C02-9D49-4D01-A904-90482D44BC60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

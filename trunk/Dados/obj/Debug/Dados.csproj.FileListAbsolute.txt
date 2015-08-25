@@ -1,0 +1,8 @@
+C:\Projetos\ziown-ext\Dados\bin\Debug\Dados.dll
+C:\Projetos\ziown-ext\Dados\bin\Debug\Dados.pdb
+C:\Projetos\ziown-ext\Dados\bin\Debug\Framework.dll
+C:\Projetos\ziown-ext\Dados\bin\Debug\MySql.Data.dll
+C:\Projetos\ziown-ext\Dados\bin\Debug\Framework.pdb
+C:\Projetos\ziown-ext\Dados\obj\Debug\Dados.csprojResolveAssemblyReference.cache
+C:\Projetos\ziown-ext\Dados\obj\Debug\Dados.dll
+C:\Projetos\ziown-ext\Dados\obj\Debug\Dados.pdb

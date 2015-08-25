@@ -1,0 +1,307 @@
+BODY
+{
+    COLOR: black;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt
+}
+INPUT.coresbotao
+{
+    BACKGROUND-COLOR: #999999;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: 'Verdana', Tahoma;
+    FONT-SIZE: 8pt;
+    FONT-STYLE: normal
+}
+TABLE
+{
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 8pt
+}
+A:link
+{
+    COLOR: #636363;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #636363;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #CC3300;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #CC3300;
+    TEXT-DECORATION: none
+}
+SELECT
+{
+    FONT-SIZE: 7pt;
+    font-family: verdana
+}
+INPUT
+{
+    FONT-SIZE: 7pt;
+    font-family: verdana
+}
+TEXTAREA
+{
+    FONT-SIZE: 9pt;
+    font-family: verdana
+}
+TABLE.tabelaerro
+{
+    BORDER-BOTTOM-COLOR: #dc4f0a;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #dc4f0a;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #dc4f0a;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #dc4f0a;
+    BORDER-TOP-STYLE: solid
+}
+TD.erro
+{
+    BACKGROUND-COLOR: #dc4f0a;
+    BORDER-BOTTOM-COLOR: #dc4f0a;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #dc4f0a;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #dc4f0a;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #dc4f0a;
+    BORDER-TOP-STYLE: solid
+}
+TABLE.cortabela
+{
+    BORDER-BOTTOM-COLOR: #999999;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #999999;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #999999;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #999999;
+    BORDER-TOP-STYLE: solid
+}
+TD.pesquisa
+{
+    BACKGROUND-COLOR: #999999;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: 'Verdana', Tahoma;
+    FONT-SIZE: 8pt;
+    
+}
+TD.titulo
+{
+    BACKGROUND-COLOR: #c62529;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: 'Verdana', Tahoma;
+    FONT-SIZE: 8pt;
+    
+}
+TD.colunatitulo
+{
+    BACKGROUND-COLOR: #999999;
+    BORDER-BOTTOM-COLOR: #999999;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #999999;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #999999;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #999999;
+    BORDER-TOP-STYLE: solid;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: 'Verdana', Tahoma;
+    FONT-SIZE: 8pt;
+}
+TD.colunadetalhes
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM-COLOR: #999999;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #999999;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #999999;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #999999;
+    BORDER-TOP-STYLE: solid
+}
+TD.colunasubTitulo
+{
+    BACKGROUND-COLOR: #ECECEC;
+    BORDER-BOTTOM-COLOR: #ECECEC;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #ECECEC;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #ECECEC;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #ECECEC;
+    BORDER-TOP-STYLE: solid
+}
+TD.colunasimples
+{
+    BACKGROUND-COLOR: #e776fa;
+    BORDER-BOTTOM-COLOR: #aa3487;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #aa3487;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #aa3487;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #aa3487;
+    BORDER-TOP-STYLE: solid
+}
+TABLE.cortabeladefault
+{
+    BORDER-BOTTOM-COLOR: #ffffff;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #ffffff;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #ffffff;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #ffffff;
+    BORDER-TOP-STYLE: solid
+}
+TABLE.cordefaultinterna
+{
+    BORDER-BOTTOM-COLOR: #dbdbdb;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #dbdbdb;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #dbdbdb;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #dbdbdb;
+    BORDER-TOP-STYLE: solid
+}
+TD.default
+{
+    BACKGROUND-COLOR: #dbdbdb;
+    BORDER-BOTTOM-COLOR: #dbdbdb;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #dbdbdb;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #dbdbdb;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #dbdbdb;
+    BORDER-TOP-STYLE: solid
+}
+TD.defaultconteudo
+{
+    BACKGROUND-COLOR: #f3f3f3;
+    BORDER-BOTTOM-COLOR: #f3f3f3;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #f3f3f3;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #f3f3f3;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #f3f3f3;
+    BORDER-TOP-STYLE: solid
+}
+TD.estatisticaconteudo
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM-COLOR: #ffffff;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #ffffff;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #ffffff;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #ffffff;
+    BORDER-TOP-STYLE: solid
+}
+TABLE.cortabelanoticias
+{
+    BORDER-BOTTOM-COLOR: #efe7d6;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #efe7d6;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #efe7d6;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #efe7d6;
+    BORDER-TOP-STYLE: solid
+}
+TD.noticias
+{
+    BACKGROUND-COLOR: #efe7d6;
+    BORDER-BOTTOM-COLOR: #efe7d6;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #efe7d6;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #efe7d6;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #efe7d6;
+    BORDER-TOP-STYLE: solid
+}
+TD.noticiasconteudo
+{
+    BACKGROUND-COLOR: #ffffff;
+    BORDER-BOTTOM-COLOR: #ffffff;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #ffffff;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #ffffff;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #ffffff;
+    BORDER-TOP-STYLE: solid
+}
+TD.marcadortitulo
+{
+    BACKGROUND-COLOR: #dc4f0a;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana;
+    FONT-SIZE: 7pt
+}
+TR.linhasimples
+{
+    BACKGROUND-COLOR: #ECECEC;
+    BORDER-BOTTOM-COLOR: #ECECEC;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #ECECEC;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #ECECEC;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #ECECEC;
+    BORDER-TOP-STYLE: solid
+}
+.menuadminbotaoiconeover
+{
+    BACKGROUND-COLOR: #f0a17a
+}
+.menuadminbotaoiconesolto
+{
+    BACKGROUND-COLOR: #dc4f0a
+}
+.headeradminbarrainferior
+{
+    BACKGROUND-COLOR: #de5108
+}
+.headeradminmenuitens
+{
+    BACKGROUND-COLOR: #E8E8E8
+}
+.headeradminmenusubitens
+{
+    BACKGROUND-COLOR: white
+}
+.headeradminmenufundo
+{
+    BACKGROUND-COLOR: #e0e9eb
+}
+.headeradminfundologoadmin
+{
+    BACKGROUND-COLOR: #f7a27b
+}
+.menusmartbuybotaoclicado
+
+{ 
+BACKGROUND-COLOR: #999999
+
+}
+
+.menusmartbuybotaosolto
+
+{
+BACKGROUND-COLOR: #ECECEC
+}

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6411A796-758D-4686-B0A7-368514B97006}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dados</RootNamespace>
+    <AssemblyName>Dados</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entidades\CWEmpresa.cs" />
+    <Compile Include="Entidades\CWProposta.cs" />
+    <Compile Include="Entidades\CWNota.cs" />
+    <Compile Include="Entidades\CWNivel.cs" />
+    <Compile Include="Entidades\CWValidadeProposta.cs" />
+    <Compile Include="Entidades\CWOpcaoMulta.cs" />
+    <Compile Include="Entidades\CWOpcaoPagamento.cs" />
+    <Compile Include="Entidades\CWAntiVirus.cs" />
+    <Compile Include="Entidades\CWEspecialidade.cs" />
+    <Compile Include="Entidades\CWSetor.cs" />
+    <Compile Include="Entidades\CWProduto.cs" />
+    <Compile Include="Entidades\CWIndicacao.cs" />
+    <Compile Include="Entidades\CWProspect.cs" />
+    <Compile Include="Entidades\CWUsuario.cs" />
+    <Compile Include="Entidades\CWCoordenador.cs" />
+    <Compile Include="Entidades\CWClassificacao.cs" />
+    <Compile Include="Entidades\CWParceiro.cs" />
+    <Compile Include="Negocio\NgProposta.cs" />
+    <Compile Include="Negocio\NgNota.cs" />
+    <Compile Include="Negocio\NgPesquisas.cs" />
+    <Compile Include="Negocio\NgNivel.cs" />
+    <Compile Include="Negocio\NgValidadeProposta.cs" />
+    <Compile Include="Negocio\NgOpcaoMulta.cs" />
+    <Compile Include="Negocio\NgOpcaoPagamento.cs" />
+    <Compile Include="Negocio\Empresa.cs" />
+    <Compile Include="Negocio\NgClassificacao.cs" />
+    <Compile Include="Negocio\NgEspecialidade.cs" />
+    <Compile Include="Negocio\NgSetor.cs" />
+    <Compile Include="Negocio\NgProduto.cs" />
+    <Compile Include="Negocio\NgCoordenador.cs" />
+    <Compile Include="Negocio\NgIndicacao.cs" />
+    <Compile Include="Negocio\NgProspect.cs" />
+    <Compile Include="Negocio\Usuario.cs" />
+    <Compile Include="Negocio\NgParceiro.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{B6990C02-9D49-4D01-A904-90482D44BC60}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

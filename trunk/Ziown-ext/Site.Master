@@ -1,0 +1,161 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Ziown_ext.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="../Scripts/jquery-1.4.1.js"></script>
+    <script src="../Scripts/jquery.maskedinput-1.1.4.pack.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-1.2.6.pack.js" type="text/javascript"></script>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <ext:ResourceManager ID="ResourceManager1" runat="server" />
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                [<asp:Label ID="lblUsuario" runat="server" Text=""></asp:Label>]<br />
+                <asp:HyperLink ID="hypSair" runat="server" NavigateUrl="~/Login.aspx">Sair</asp:HyperLink>
+            </div>
+            <div class="clear hideSkiplink">
+                <ext:Toolbar ID="Toolbar1" runat="server">
+                    <Items>
+                        <ext:Button ID="Button1" runat="server" Text="Home" Icon="House" OnDirectClick="mnuHome_Click" />
+                        <ext:Button ID="Button2" runat="server" Text="Cadastros" Icon="Application">
+                            <Menu>
+                                <ext:Menu ID="Menu1" runat="server" ShowSeparator="false">
+                                    <Items>
+                                        <ext:MenuPanel ID="MenuPanel1" runat="server" Title="">
+                                            <Menu ID="Menu2" runat="server" ShowSeparator="false">
+                                                <Items>
+                                                    <ext:MenuItem ID="MenuItem1" runat="server" Text="Empresas" OnDirectClick="mnuCadastroEmpresas_Click"
+                                                        Icon="ComputerAdd" />
+                                                </Items>
+                                            </Menu>
+                                        </ext:MenuPanel>
+                                    </Items>
+                                </ext:Menu>
+                            </Menu>
+                        </ext:Button>
+                        <ext:Button ID="Button3" runat="server" Text="Sales Items">
+                            <Menu>
+                                <ext:Menu ID="Menu6" runat="server" ShowSeparator="false">
+                                    <Items>
+                                        <ext:Container ID="Container2" runat="server" Width="400" Height="470" Layout="VBox">
+                                            <LayoutConfig>
+                                                <ext:VBoxLayoutConfig Align="Stretch" />
+                                            </LayoutConfig>
+                                            <Items>
+                                                <ext:Container ID="Container3" runat="server" Flex="1" Layout="Hbox" Margins="0 0 5 0">
+                                                    <Defaults>
+                                                        <ext:Parameter Name="Height" Value="230" Mode="Raw" />
+                                                        <ext:Parameter Name="Flex" Value="1" Mode="Raw" />
+                                                        <ext:Parameter Name="Cls" Value="white-menu" Mode="Value" />
+                                                        <ext:Parameter Name="Margin" Value="1" Mode="Raw" />
+                                                    </Defaults>
+                                                    <Items>
+                                                        <ext:MenuPanel ID="MenuPanel5" runat="server" Title="Deal of the week">
+                                                            <Menu ID="Menu7" runat="server" ShowSeparator="false">
+                                                                <Items>
+                                                                    <ext:MenuItem ID="MenuItem29" runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem ID="MenuItem30" runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem ID="MenuItem31" runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem ID="MenuItem32" runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                </Items>
+                                                            </Menu>
+                                                        </ext:MenuPanel>
+                                                        <ext:MenuPanel runat="server" Title="Clearance items">
+                                                            <Menu runat="server" ShowSeparator="false">
+                                                                <Items>
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                </Items>
+                                                            </Menu>
+                                                        </ext:MenuPanel>
+                                                    </Items>
+                                                </ext:Container>
+                                                <ext:Container runat="server" Flex="1" Layout="Hbox">
+                                                    <Defaults>
+                                                        <ext:Parameter Name="Height" Value="230" Mode="Raw" />
+                                                        <ext:Parameter Name="Flex" Value="1" Mode="Raw" />
+                                                        <ext:Parameter Name="Cls" Value="white-menu" Mode="Value" />
+                                                        <ext:Parameter Name="Margin" Value="1" Mode="Raw" />
+                                                    </Defaults>
+                                                    <Items>
+                                                        <ext:MenuPanel runat="server" Title="Deal of the week">
+                                                            <Menu runat="server" ShowSeparator="false">
+                                                                <Items>
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                </Items>
+                                                            </Menu>
+                                                        </ext:MenuPanel>
+                                                        <ext:MenuPanel runat="server" Title="Clearance items">
+                                                            <Menu runat="server" ShowSeparator="false">
+                                                                <Items>
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                </Items>
+                                                            </Menu>
+                                                        </ext:MenuPanel>
+                                                        <ext:MenuPanel runat="server" Title="Open Box Items">
+                                                            <Menu runat="server" ShowSeparator="false">
+                                                                <Items>
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                    <ext:MenuItem runat="server" Text="Navigation Link" />
+                                                                </Items>
+                                                            </Menu>
+                                                        </ext:MenuPanel>
+                                                    </Items>
+                                                </ext:Container>
+                                            </Items>
+                                        </ext:Container>
+                                    </Items>
+                                </ext:Menu>
+                            </Menu>
+                        </ext:Button>
+                    </Items>
+                </ext:Toolbar>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Projetos\ziown-ext\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Projetos\ziown-ext\Framework\bin\Debug\Framework.dll
+C:\Projetos\ziown-ext\Framework\bin\Debug\Framework.pdb
+C:\Projetos\ziown-ext\Framework\bin\Debug\MySql.Data.dll
+C:\Projetos\ziown-ext\Framework\obj\Debug\Framework.dll
+C:\Projetos\ziown-ext\Framework\obj\Debug\Framework.pdb
